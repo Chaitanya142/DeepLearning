@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="Credit EDA Assignment1.png" alt="Problem Statement" width="700">
+  <img src="Credit EDA Assignment2.png" alt="Problem Statement" width="700">
 </p>
 
 <p align="center">
