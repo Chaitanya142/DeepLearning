@@ -41,6 +41,73 @@ You need to submit the following components:
 
 Download:
 Data File: https://learn.upgrad.com/course/5705/segment/53361/326667/989233/4943881
+
+----------------------------------
+
+## 🧠 Overview
+This project aims to improve the lead conversion rate for **X Education**, an online course provider for industry professionals. Despite acquiring thousands of leads through marketing efforts, the company struggles with a low conversion rate (~30%). The goal is to build a **predictive model** that assigns a **lead score (0–100)** to each lead, helping the sales team prioritize high-potential leads and improve conversion efficiency.
+
+---
+
+## 🎯 Objectives
+- Build a **logistic regression model** to predict lead conversion likelihood.
+- Assign a **lead score** to each lead based on predicted probability.
+- Improve conversion rate from ~30% to a target of ~80%.
+- Enable data-driven prioritization of sales outreach.
+- Ensure model flexibility to adapt to future business requirements.
+
+---
+
+## 📁 Dataset
+- **Size**: ~9,000 records
+- **Target Variable**: `Converted` (1 = converted, 0 = not converted)
+- **Features**: Lead Source, Total Time Spent on Website, Total Visits, Last Activity, etc.
+- **Special Handling**: Categorical values labeled `'Select'` treated as nulls
+
+---
+
+## 🛠️ Deliverables
+1. **Jupyter Notebook**  
+   - Data cleaning and preprocessing  
+   - Logistic regression model  
+   - Predictions and evaluation metrics  
+   - Lead scoring logic  
+
+2. **Word Document**  
+   - Answers to additional business questions provided by X Education  
+
+3. **Presentation (PDF)**  
+   - Summary of problem, approach, results, and recommendations  
+   - Visualizations and business insights  
+
+4. **Summary Report (PDF)**  
+   - 500-word overview of methodology, challenges, and learnings  
+
+---
+
+## 📈 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
+- ROC-AUC  
+
+---
+
+## 💡 Business Impact
+- Focus sales efforts on high-potential leads  
+- Reduce time spent on low-probability conversions  
+- Increase ROI on marketing and sales activities  
+- Support strategic decision-making with predictive analytics  
+
+---
+
+## 📝 Notes
+- Model built using logistic regression for interpretability and scalability  
+- Categorical variables and missing values handled with domain-specific logic  
+- Visualizations included to support business understanding  
+
+---
  
 <p align="center">
   <img src="ML1-LeadScoring.png" alt="Problem Statement" width="700">
